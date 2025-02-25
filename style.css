@@ -327,7 +327,7 @@ footer .links {
 }
 @media (max-width: 840px) {
   .heros {
-    width: 90%;
+    width: 95%;
   }
   .contacts {
     width: 90%;
@@ -346,5 +346,8 @@ width:80%;
   }
   #lists {
     gap: 10px;
+  }
+.heros {
+    width: 95%;
   }
 }
