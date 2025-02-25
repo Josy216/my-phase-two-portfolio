@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0a192f;
+  color: #fff;
+}
+img {
+  width: 100%;
+}
+header {
+  padding: 18px;
+}
+#lists {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+#lists li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+#lists li a:hover {
+  border-bottom: 2px solid red;
+}
+/* hero */
+
+.pro-wrapper,
+#hero,
+.certification {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.heros {
+  text-align: justify;
+  width: 48%;
+  margin: 7px 0 5px;
+  padding: 10px;
+}
+.heros img {
+  width: 200px;
+  width: 100%;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  object-fit: contain;
+}
+#hero fieldset {
+  text-align: center;
+  padding: 15px;
+}
+
+fieldset h1,
+.skills h1 {
+  font-size: 2.5rem;
+}
+fieldset h2 {
+  font-size: 1.5rem;
+  color: #61dafb;
+}
+.skill p,
+fieldset p {
+  max-width: 600px;
+  margin: 15px auto;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+fieldset .buttons {
+  margin: 10px 0;
+}
+fieldset .buttons a {
+  text-decoration: none;
+  color: white;
+  background: #ff6600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+fieldset .buttons a:hover {
+  background: #ff4500;
+}
+
+.skills {
+  border: 1px solid #ccc;
+  box-shadow: 0 3px #ccc;
+  padding: 12px;
+}
+.progress-cont {
+  width: 80%;
+  height: 20px;
+  margin: 10px auto;
+  overflow: hidden;
+  background: #ddd;
+  position: relative;
+  border-radius: 10px;
+}
+.html {
+  width: 0;
+  height: 100%;
+  animation: animatehtml 2s ease-in-out forwards;
+  background: #f16529;
+}
+.css {
+  width: 0;
+  height: 100%;
+  animation: animatecss 2s ease-in-out forwards;
+  background: #2965f1;
+}
+.js {
+  width: 0;
+  height: 100%;
+  animation: animatejs 2s ease-in-out forwards;
+  background: #f7df1e;
+}
+.react {
+  width: 0;
+  height: 100%;
+  animation: animatereact 2s ease-in-out forwards;
+  background: #61dafb;
+}
+.bootstrap {
+  width: 0;
+  height: 100%;
+  animation: animatebootstrap 2s ease-in-out forwards;
+  background: #7952b3;
+}
+.cplus {
+  width: 0;
+  height: 100%;
+  animation: animatecplus 2s ease-in-out forwards;
+  background: #00599c;
+}
+.java {
+  width: 0;
+  height: 100%;
+  animation: animatejava 2s ease-in-out forwards;
+  background: #007396;
+}
+@keyframes animatehtml {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes animatecss {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes animatejs {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+@keyframes animatereact {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45%;
+  }
+}
+@keyframes animatebootstrap {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes animatecplus {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes animatejava {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+/* projects */
+.pro-wrapper,
+.certification {
+  background-color: #fff;
+  color: #000;
+}
+.pro {
+  font-weight: bold;
+  padding: 15px 10px;
+  margin: 0 0 7px;
+  text-align: center;
+}
+.box {
+  border: 1px solid #ccc;
+  box-shadow: 0 3px #ccc;
+  text-align: justify;
+  width: 32.5%;
+  margin: 7px 0 5px;
+  padding: 10px;
+}
+.box img {
+  width: 250px;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  padding: 12px;
+}
+.box .links {
+  padding: 8px 0;
+  text-align: center;
+}
+.box .links a {
+  text-decoration: none;
+}
+.box button {
+  color: #fff;
+  letter-spacing: 15px;
+  font-weight: bold;
+  background: #303680;
+  padding: 15px 0;
+  border-radius: 12px;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+.more-pro {
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.certs {
+  text-align: center;
+  padding: 20px;
+}
+.contacts {
+  text-align: center;
+  padding: 8px 0;
+  margin: 10px auto;
+  width: 60%;
+}
+.contacts img {
+  width: 200px;
+  width: 100%;
+  height: 170px;
+  border: 4px solid #ccc;
+  border-radius: 50%;
+  object-fit: contain;
+}
+#feecatch .message {
+  border: 1px solid #ccc;
+  box-shadow: 0 5px #ccc;
+  width: 40%;
+  margin: 12px auto;
+}
+.message .links {
+  text-align: center;
+  padding: 5px 0;
+}
+.message .links a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+}
+.contacts form {
+  text-align: center;
+  padding: 12px 0;
+  width: 70%;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contacts button {
+  color: #fff;
+  letter-spacing: 10px;
+  font-weight: bold;
+  background: #f20;
+  padding: 15px 0;
+  border-radius: 12px;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+.contacts input,
+.contacts textarea {
+  border: none;
+  outline: none;
+  padding: 7px 0;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+footer {
+  padding: 15px;
+  text-align: center;
+}
+
+footer .links {
+  padding: 7px;
+}
+@media (max-width: 840px) {
+  .heros {
+    width: 90%;
+  }
+  .contacts {
+    width: 90%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .box {
+    width: 48%;
+  }
+  .message {
+    width: 55%;
+  }
+}
+@media (max-width: 540px) {
+  .box {
+    width: 90%;
+  }
+  #lists {
+    gap: 10px;
+  }
+  .message {
+    width: 80%;
+  }
+}
