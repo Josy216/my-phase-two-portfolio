@@ -276,7 +276,7 @@ fieldset .buttons a:hover {
 #feecatch .message {
   border: 1px solid #ccc;
   box-shadow: 0 5px #ccc;
-  width: 40%;
+  width: 60%;
   margin: 12px auto;
 }
 .message .links {
@@ -345,10 +345,10 @@ footer .links {
   .box {
     width: 90%;
   }
+  .message {
+    width: 90%;
+  }
   #lists {
     gap: 10px;
-  }
-  .message {
-    width: 80%;
   }
 }
