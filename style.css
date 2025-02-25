@@ -276,7 +276,7 @@ fieldset .buttons a:hover {
 #feecatch .message {
   border: 1px solid #ccc;
   box-shadow: 0 5px #ccc;
-  width: 60%;
+  width: 40%;
   margin: 12px auto;
 }
 .message .links {
@@ -332,20 +332,16 @@ footer .links {
   .contacts {
     width: 90%;
   }
+  #feecatch .message{
+width:80%;
 }
 @media (min-width: 540px) and (max-width: 768px) {
   .box {
     width: 48%;
   }
-  .message {
-    width: 55%;
-  }
 }
 @media (max-width: 540px) {
   .box {
-    width: 90%;
-  }
-  .message {
     width: 90%;
   }
   #lists {
