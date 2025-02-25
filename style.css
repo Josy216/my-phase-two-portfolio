@@ -313,7 +313,7 @@ fieldset .buttons a:hover {
 .contacts textarea {
   border: none;
   outline: none;
-  padding: 7px 0;
+  padding: 10px;
   font-size: 1.2rem;
   border-radius: 10px;
 }
