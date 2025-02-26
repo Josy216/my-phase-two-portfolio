@@ -18,15 +18,19 @@ header {
   list-style: none;
   display: flex;
   justify-content: right;
-  gap: 20px;
+  gap: 10px;
 }
 #lists li a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.3rem;
   color: #fff;
 }
 #lists li a:hover {
-  border-bottom: 2px solid red;
+  background: #fff;
+  color: #000;
+  border-radius: 12px;
+  padding: 0 10px;
 }
 /* hero */
 
@@ -59,19 +63,25 @@ header {
 }
 
 fieldset h1,
-.skills h1 {
+.skills h3 {
   font-size: 2.5rem;
 }
-fieldset h2 {
+fieldset h2,
+.skills h3,
+.pro h2,
+.certs h2,
+.box h3 {
+  padding: 5px 0;
   font-size: 1.5rem;
   color: #61dafb;
 }
 .skill p,
-fieldset p {
-  max-width: 600px;
+.pro p,
+fieldset p,
+.certs p {
+  padding: 5px;
   margin: 15px auto;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 fieldset .buttons {
@@ -86,8 +96,12 @@ fieldset .buttons a {
   display: inline-block;
   transition: 0.3s;
 }
-fieldset .buttons a:hover {
-  background: #ff4500;
+fieldset .buttons a:hover,
+.box button:hover,
+.contacts button:hover {
+  transition: all 1s ease-in;
+  background: #000;
+  color: #fff;
 }
 
 .skills {
@@ -209,15 +223,17 @@ fieldset .buttons a:hover {
   color: #000;
 }
 .pro {
-  font-weight: bold;
   padding: 15px 10px;
   margin: 0 0 7px;
   text-align: center;
 }
-. pro h2 {
-  font-size: 1.5rem;
-  color: #61dafb;
-padding : 12px;
+.box h3 {
+  color: #000;
+}
+.box p {
+  padding: 5px 0 5px;
+  margin: 15px auto;
+  font-size: 1.2rem;
 }
 .box {
   border: 1px solid #ccc;
@@ -252,11 +268,6 @@ padding : 12px;
   border: none;
   outline: none;
 }
-.box button:hover{
-background: black;
-color:#fff;
-}
-
 
 .more-pro {
   display: none;
@@ -320,11 +331,6 @@ color:#fff;
   border: none;
   outline: none;
 }
-.contacts button:hover{
-background:black;
-color: #fff;
-}
-
 
 .contacts input,
 .contacts textarea {
@@ -338,7 +344,6 @@ footer {
   padding: 15px;
   text-align: center;
 }
-
 footer .links {
   padding: 7px;
 }
@@ -349,22 +354,23 @@ footer .links {
   .contacts {
     width: 90%;
   }
-  #feecatch .message{
-width:80%;
-}
-@media (min-width: 540px) and (max-width: 768px) {
-  .box {
-    width: 48%;
+  #feecatch .message {
+    width: 80%;
   }
-}
-@media (max-width: 540px) {
-  .box {
-    width: 90%;
+  @media (min-width: 540px) and (max-width: 768px) {
+    .box {
+      width: 48%;
+    }
   }
-  #lists {
-    gap: 10px;
-  }
-.heros {
-    width: 95%;
+  @media (max-width: 540px) {
+    .box {
+      width: 90%;
+    }
+    #lists {
+      gap: 10px;
+    }
+    .heros {
+      width: 95%;
+    }
   }
 }
