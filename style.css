@@ -247,6 +247,12 @@ fieldset .buttons a:hover {
   border: none;
   outline: none;
 }
+.box button:hover{
+background: black;
+color:#fff;
+}
+
+
 .more-pro {
   display: none;
   /* display: flex; */
@@ -309,6 +315,12 @@ fieldset .buttons a:hover {
   border: none;
   outline: none;
 }
+.contacts button:hover{
+background:black;
+color: #fff;
+}
+
+
 .contacts input,
 .contacts textarea {
   border: none;
