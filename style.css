@@ -214,6 +214,11 @@ fieldset .buttons a:hover {
   margin: 0 0 7px;
   text-align: center;
 }
+. pro h2 {
+  font-size: 1.5rem;
+  color: #61dafb;
+padding : 12px;
+}
 .box {
   border: 1px solid #ccc;
   box-shadow: 0 3px #ccc;
