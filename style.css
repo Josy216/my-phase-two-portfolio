@@ -230,7 +230,7 @@ fieldset .buttons a:hover,
 .box h3 {
   color: #000;
 }
-.box p {
+.box p, pro p {
   padding: 5px 0 5px;
   margin: 15px auto;
   font-size: 1.2rem;
